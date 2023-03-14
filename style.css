@@ -1,0 +1,171 @@
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap { 
+    font-size: 35px;
+    border-radius: 25px;
+    border: 3px solid rgb(106, 106, 156);
+    background-color: gray;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.formSection {
+  font-size: 1, 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  /* padding: 30px; */
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.form_title {
+  font-size: 45px;
+  text-align: center;
+  color: blueviolet;
+}
+
+label {
+  font-size: 20px;
+  color: blue;
+}
+.inputs,
+.select {
+  width: 80%;
+  background-color: bisque;
+  text-align: start;
+  border: none;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60%;
+  font-size: 1.5rempx;
+  color: rgb(3, 3, 44);
+  border: 3px solid rgb(83, 193, 227);
+  border-radius: 10px;
+}
+.sale__text {
+  font-size: 35px;
+  text-align: center;
+  color: blueviolet;
+}
+
+#formbtn {
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: blue;
+  color: azure;
+}
+
+/* kardd*/
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+  border: 2px solid rgb(103, 58, 145);
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(178, 165, 165);
+}
+
+.sale {
+  padding: 20px;
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.btn__sale {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: gold;
+  border-radius: 5px;
+}
+
+.btn__basket {
+  padding: 3px;
+  margin-left: 100px;
+  border-radius: 5px;
+  background-color: rgb(62, 62, 165);
+}
+
+.imgpruduct {
+  border-radius: 10px;
+}
+
+.pruduct-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale__price {
+  font-size: 10px;
+  font-style: italic;
+  color: red;
+}
+
+.sale__skidka {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(58, 39, 231);
+}
+
+.buybtn {
+  width: 100%;
+  text-align: center;
+}
